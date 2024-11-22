@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",  // or "ESNext" for ESM-compatible JS output
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*.ts"]
+  }
+  
